@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yunus's Blog</title>
+    <link href="https://alx-apply.hbtn.io/level2/school.css" rel="stylesheet">
+
+    <link href="/styles.css" rel="stylesheet">
+
+    <script src="/behavior.js"></script>
+
+
+</head>
+
+<body class="works_on_smartphone" id="scroll-up">
+
+    <header>
+        <div class="right">
+            <ul class="social">
+                <li class="ion-social-facebook">
+                    <a href="https://www.facebook.com/Blackalpha363/" target="_blank">
+                        <ion-icon name="logo-facebook" size="large"></ion-icon>
+                    </a>
+                </li>
+                <li class="ion-social-twitter">
+                    <a href="https://twitter.com/YKidem" target="_blank">
+                        <ion-icon name="logo-twitter" size="large"></ion-icon>
+                        </i>
+                    </a>
+                </li>
+                <li class="ion-social-linkedin">
+                    <a href="https://www.linkedin.com/in/yunus-kt-544aa91b7/" target="_blank">
+                        <ion-icon name="logo-linkedin" size="large"></ion-icon>
+                    </a>
+                </li>
+                <li class="ion-social-instagram">
+                    <a href="https://www.instagram.com/black._alpha/" target="_blank">
+                        <ion-icon name="logo-instagram" size="large"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="scroll-up-btn">
+            <a href="#scroll-up">
+                <ion-icon name="arrow-up-circle-outline"></ion-icon>
+            </a>
+        </div>
+
+        <nav class="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/guide.html">Guide</a>
+            <a href="/tweets.html">Tweet</a>
+            <a href="/contact.html">Contact</a>
+            <div class="animations smart-guides"></div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <article class="article-back" id="article-back">
+
+            <nav class="navguide">
+                <a href="/guide.html">Introduction</a>
+                <a href="/guide/front-end.html">Front-end</a>
+                <a href="/guide/back-end.html">Back-end</a>
+                <a href="/guide/resources.html">Resources</a>
+                <!--<a href="#">Contact</a> -->
+                <div class="animation smart-back"></div>
+            </nav>
+            <h1> Back end development Road map</h1>
+            <p> Python, Java, Ruby, PHP, Nodejs are one of the major back end languages.
+                <img src="https://th.bing.com/th/id/OIP.8ulf74SU5X5WkSkBhIAslgHaEG?w=313&h=180&c=7&o=5&dpr=1.5&pid=1.7" alt="image for resizing" class="small" id="smart_thumbnail">
+            </p>
+
+            <li>Why not to kill 2 birds with one stone!? Node.js is very similar and it’s easy if you know JS</li>
+
+            <p></p>
+            <h4>Best back end Frameworks </h4>
+            <ul>
+                <li>Haskell – Yesod </li>
+                <li>Java – spring </li>
+                <li>Python – Djnago & flask </li>
+                <li>Ruby – Laravel, Symfony </li>
+                <li>Node.js – Express </li>
+                <li>Go – Revel </li>
+            </ul>
+
+            <h5>Database – Store your data</h5>
+            <ul>
+                <li>Whenever you create a backend for your application you mostly want to manage your data, create an API and create multiple end points for it. so that user can get access to it for this you will need Data base </li>
+                <ul>
+                    <li>Relational Database – PostgreSQL (easy to learn and highly support Djnago), MySQL</li>
+                    <li>NoSQL Database:</li>
+                    <ul>
+                        <li>Key value store: Redis, DynamoDB (AWS service also super-fast)</li>
+                        <li>Document base: MongoDB (looks like JSON )</li>
+                    </ul>
+                    <li>Cloud Database: Amazon RDS , Firebase </li>
+                </ul>
+                <li>Multi-model Database: Cosmos DB (huge database, kind of connects every database for example in one you may have relational database and key value store.</li>
+            </ul>
+
+            <h5>Rest API vs GraphQL</h5>
+            <ul>
+                <li>Rest API - You create a multiple end points and you expose your data with different kind of structures. </li>
+                <li>In GraphQL – you only have one end point, you don’t have to remember all of your endpoints you just have to ask one end point and front end developer can ask for what data he wants.</li>
+                <ul>
+                    <li>Query language, you describe how to as for data </li>
+                    <li>It lets the client specify exactly what data it needs</li>
+                    <li>It makes it easier to aggregate data from multiple sources.</li>
+                    <li>You can use APOLLO to develop it. also super-easy to create in Django. </li>
+                    <li>If you go to Facebook developer you can get the GraphQL API and will continue by your own.</li>
+                </ul>
+            </ul>
+
+            <h4>Web developer stacks </h4>
+            <ol>
+                <li>LAMP (Linux, Apache, MySQL, PHP) – The old-school stack </li>
+                <li>MEAN (Mongo DB, ExpressJS, AngularJS, NodeJS – The jock stack </li>
+                <li>Java + Spring – The lightweight Stack </li>
+                <li>MERN MongoDB Express React Node.js – most popular</li>
+                <li>RoR (Ruby on rails)</li>
+                <li>MEVN (MEAN but with Vue.JS)</li>
+            </ol>
+            <h4>DevOps – Learn how to deploy your apps and more.</h4>
+            <ul>
+                <li>Learn how to use Linux severs (SSH, Command line, Bash Scripts)</li>
+                <li>Proxy server and Web server (NGINX)</li>
+                <li>Deploy apps on server (AWS (hard but great), Heroku (super-easy; without having really know the details. Good for beginners), Azure, Google cloud)</li>
+                <li>Docker containers </li>
+                <li>Automated testing </li>
+                <li>CI/CD – to make sure your app don’t crush. You will run in a thing like a pipeline and if it’s green your good to go. And also other developers could see your code and will suggest you. </li>
+            </ul>
+
+        </article>
+
+        <aside>
+
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                /* var disqus_config = function() {
+                    this.page.url = '<?php echo get_permalink(); ?>'; // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = '<?php echo dsq_identifier_for_post($post); ?>' // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                }; */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document,
+                        s = d.createElement('script');
+                    s.src = 'https://yunuss-blog.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+        </aside>
+
+    </main>
+
+    <footer>
+        Built with <span>❤</span> by Yunus Kidem Tesfaye for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a>.
+    </footer>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</body>
+
+</html>
